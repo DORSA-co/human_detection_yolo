@@ -7,7 +7,7 @@ in the following pros and cons of each model will be explained:
 1) MobileNet: has acceptable speed but detects some wrong object in the background -> solution: selecting an ROI might help, speed is improved using skip frame
 2) yolov3-tiny: too slow and too many wrong detections
 3) yolov4-tiny: speed is nither good neither bad, detection is mostly fine (but not always!!)
-4) yolov4-tiny with tracking using deep SORT algorithm: SORT(Simple Onine Realtime Tracking) is a tracking algorithm, it makes the whole thing very slow but can be help full and is the most accurate and fast traking at the time.
+4) yolov4-tiny with tracking using deep SORT algorithm: SORT(Simple Onine Realtime Tracking) is a tracking algorithm, it makes the whole thing very slow but can be helpfull and is the most accurate and fast traking at the time.
 5)yolov5: https://github.com/ultralytics/yolov5 -> has 5 different weight models: n, s, m, l and x (from smallest to largest) 
 this one has acceptable speed and accuracy
 
