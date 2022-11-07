@@ -19,6 +19,10 @@ to run these on a RaspberianOS, opencv and python<=3.8 and pytorch must be insta
 pytorch : it can't be installed with pip and the normal wheel of python pip since the cpu is arm-based and not intel
 
 I installed the wheel from: https://github.com/ljk53/pytorch-rpi
+
 Pytorch version must be higher than v1.7 for yolov5
 
 this was also tested on yolov4-tiny cpp, which had way worst speed
+
+
+ATTENTION: this project does not have a UI yet, but it will soon.
