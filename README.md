@@ -3,11 +3,13 @@ this repository is designated for the DVR project in Dorsa Co. there have been s
 MobileNet ssd_mobilenet_v3_large_coco, yolov3-tiny, yolov4-tiny, yolov5
 
 the following pros and cons of each model will be explained:
+
 1.	MobileNet: has acceptable speed but detects some wrong objects in the background -> solution: selecting an ROI might help, speed is improved using skip frame
 2.	yolov3-tiny: too slow and too many wrong detections
 3.	yolov4-tiny: speed is neither good nor bad, detection is mostly fine (but not always!!)
 4.	yolov4-tiny with tracking using deep SORT algorithm: SORT(Simple Online Realtime Tracking) is a tracking algorithm, it makes the whole thing very slow but can be helpful and is the most accurate and fast-tracking at the time. DeepSORT:https://arxiv.org/abs/1703.07402
 5.	yolov5: https://github.com/ultralytics/yolov5 -> has 5 different weight models: n, s, m, l, and x (from smallest to largest) this one has acceptable speed and accuracy
+
 testing the models on RaspberryPi2:
 
 we have tested these on RaspberryPi2 2Gig, speed drops in comparison to running on a corei7 laptop
