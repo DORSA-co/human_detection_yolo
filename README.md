@@ -9,8 +9,11 @@ in the following pros and cons of each model will be explained:
 this one has acceptable speed and accuracy
 
 testing the models on RaspberryPi2:
+
 we have tested these on RaspberryPi2 2Gig, speed drops in comarison to running on a corei7 laptop
 to run these on a RaspberianOS, opencv and python<=3.8 and pytorch must be installed:
-\n pytorch : it can't be installed with pip and the normal wheel of python pip since the cpu is arm-based and not intel
+
+pytorch : it can't be installed with pip and the normal wheel of python pip since the cpu is arm-based and not intel
+
 i installed the wheel from: https://github.com/ljk53/pytorch-rpi
 Pytorch version must be higher than v1.7 for yolov5
